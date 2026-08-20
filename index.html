@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Montre Conte</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="clock" aria-label="Horloge analogique avec petite seconde">
+<img class="dial" src="images/cadran.png" alt="Cadran">
+
+<div id="dateWindow" class="date-window" aria-label="Jour du mois">
+  <span id="dateNumber">1</span>
+</div>
+
+<div id="ampmWindow" class="ampm-window" aria-label="Période de la journée">
+  <span id="ampm">AM</span>
+</div>
+
+<div class="subdial" aria-hidden="true">
+
+<div id="smallSecond" class="small-second"><img src="images/aiguille_petite_seconde.png" alt=""></div>
+<div class="subcenter"></div>
+</div>
+
+
+
+<img id="hour" class="hand" src="images/aiguille_heures.png" alt="">
+<img id="minute" class="hand" src="images/aiguille_minutes.png" alt="">
+
+
+<div class="center"></div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
