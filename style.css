@@ -19,7 +19,8 @@ body{min-height:100dvh;display:grid;place-items:center;overflow:hidden;backgroun
 
 /* Fenêtre du nom Eurier - ajout AM */
 .marque-window{
-  position:absolute;
+  position:relative;
+  z-index:1;
   left:35%;
   top:50%;
   width:30%;
