@@ -20,7 +20,7 @@ body{min-height:100dvh;display:grid;place-items:center;overflow:hidden;backgroun
 /* Fenêtre du nom Eurier - ajout AM */
 .marque-window{
   position:relative;
-  z-index:1;
+  /*z-index:1;*/
   left:35%;
   top:50%;
   width:30%;
@@ -80,7 +80,7 @@ body{min-height:100dvh;display:grid;place-items:center;overflow:hidden;backgroun
 
 .ampm-window span{
   position:relative;
-  z-index:1;
+  /*z-index:1;*/
   display:block;
   font-family:Georgia,"Times New Roman",serif;
   font-size:clamp(9px,2.8vw,30px);
@@ -158,7 +158,7 @@ body{min-height:100dvh;display:grid;place-items:center;overflow:hidden;backgroun
 */
 .date-window span{
   position:relative;
-  z-index:1;
+  /*z-index:1;*/
   display:block;
   font-family:Georgia,"Times New Roman",serif;
   font-size:clamp(11px,4vw,42px);
