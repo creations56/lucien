@@ -1,1 +1,1 @@
-display time with a classic pocket watch aesthetic.
+A working « on line » classic pocket watch.
